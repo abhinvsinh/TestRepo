@@ -4,6 +4,9 @@ CLI returns
 * Top-N repos by number of stars.
 * Top-N repos by number of forks.
 
+CLI handles pagination and waits if you have excceded the rate limit.
+It will wait till the rate limit is reset based on the rate limit api https://developer.github.com/v3/rate_limit/
+
 ##Initial setup
 * In eclipse import the project as new java project by using the .projects file
 * Add the simple-jsonn and jcommander jar to your build path
