@@ -5,14 +5,14 @@ CLI returns
 * Top-N repos by number of forks.
 
 CLI handles pagination and waits if you have excceded the rate limit.
-It will wait till the rate limit is reset based on the rate limit api https://developer.github.com/v3/rate_limit/
+It will wait till the rate limit is reset based on the rate limit api https://developer.github.com/v3/rate_limit/ .
 
-##Initial setup
+## Initial setup
 * In eclipse import the project as new java project by using the .projects file
 * Add the simple-jsonn and jcommander jar to your build path
 * Entry point is CLI.java
 
-##Using the executable binary
+## Using the executable binary
 * Executable is at the path /executable and is named gitApiWrapperCli.jar
 * Download the executable on to a JVM enabled machine. 
 * Run java -jar gitApiWrapperCli.jar -h to see all the options
