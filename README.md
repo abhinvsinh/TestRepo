@@ -13,7 +13,8 @@ CLI returns
 * Executable is at the path /executable and is named gitApiWrapperCli.jar
 * Download the executable on to a JVM enabled machine. 
 * Run java -jar gitApiWrapperCli.jar -h to see all the options
-* ```C02VQ20ZHV2Q:executable abhinavsi$ java -jar gitApiWrapperCli.jar -h
+```
+java -jar gitApiWrapperCli.jar -h
 Usage: gitPopSearch [options]
   Options:
     -h, --help
@@ -25,9 +26,12 @@ Usage: gitPopSearch [options]
       Git Organization for searching
   * -s, --sortFactor
       Sorting factor should be  stars || fork || PullReq || contrib_per  where
-       Contibution percentage = forks/PR ```
+       Contibution percentage = forks/PR 
+ ```
 
-* Valid eg: ```java -jar gitApiWrapperCli.jar -s forks -c 10 -o yahoo
+* Valid eg: 
+```
+java -jar gitApiWrapperCli.jar -s forks -c 10 -o yahoo
 Running gitpopsearch with ...
 
 help=false
@@ -46,4 +50,5 @@ RepoName = egads                                    Count = 278
 RepoName = streaming-benchmarks                     Count = 249
 RepoName = gryffin                                  Count = 245
 RepoName = fluxible                                 Count = 227
-RepoName = mysql_perf_analyzer                      Count = 197```
+RepoName = mysql_perf_analyzer                      Count = 197
+```
